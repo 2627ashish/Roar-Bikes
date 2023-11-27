@@ -1,0 +1,86 @@
+.check-head {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cont-back {
+    background-color: rgba(128, 128, 128, 0.41);
+    padding: 12px;
+    margin: 5px;
+}
+
+.bill-headings {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+}
+
+.bigtextboxes {
+    height: 55px;
+    border-radius: 10px;
+    width: 100% !important;
+    border: gray solid 1px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.755);
+}
+
+.bigtextboxesarea {
+    height: 70px;
+}
+
+.bigtextboxes-half {
+    height: 55px;
+    border-radius: 10px;
+    width: 49% !important;
+    border: gray solid 1px;
+    margin: 10px 5px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.755);
+}
+
+.bigtextboxes-thrice {
+    height: 55px;
+    border-radius: 10px;
+    width: 32% !important;
+    border: gray solid 1px;
+    margin: 10px 7px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.755);
+}
+
+#countries {
+    color: gray
+}
+
+.cartorders {
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 19px;
+}
+
+.img-checkout {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.fa-indian-rupee-sign {
+    margin-right: 2px !important;
+}
+.mergins-text{
+    margin: 10px 0px 10px 0px;
+}
+.placeorderbutton{
+    width: 100%;
+    border: none;
+    background-color: rgb(71, 116, 71);
+    margin: 30px 0px 10px 0px;
+    height: 64px;
+    color: white;
+}

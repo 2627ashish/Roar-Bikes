@@ -1,0 +1,115 @@
+.background {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+.top {
+    padding: 20px;
+}
+
+.item {
+    border: solid 1px honeydew;
+    border-radius: 20px;
+    width: 90% !important;
+    padding: 10px 140px 0px 50px;
+    margin: 5px 60px 15px 0px;
+    box-shadow: 10px 10px 9px 3px honeydew;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mod {
+    background: linear-gradient(135deg, #FC5E55, #FA4083);
+    color: white;
+    padding: 20px;
+    min-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    color: white;
+}
+
+.alg {
+    text-align: end;
+}
+.mr{
+    margin: 0px 20px 10px 0px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.prtimg {
+    height: 310px;
+    width: 550px;
+    border-radius: 50px;
+}
+
+.item img {
+    object-fit: contain;
+}
+
+.pd {
+    padding-top: 20px;
+}
+
+.logoalign {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.item-heading {
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.item-sub-heading {
+    font-size: 15px;
+    font-family: cursive;
+    color: darkgray;
+}
+
+.mod1 {
+    height: 200px;
+    width: 400px;
+}
+
+.Log_head {
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-log-c {
+    margin-bottom: 15px;
+}
+
+.bhed {
+    font-weight: bold;
+    font-size: 27px;
+}

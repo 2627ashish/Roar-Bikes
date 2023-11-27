@@ -1,0 +1,31 @@
+.logo{
+    display: inline-block;
+}
+.container{
+    padding: 25px !important;
+}
+.img {
+    max-width: 100%;
+    height: 250px;
+}
+.cart-notification{
+    margin-bottom: 10px;
+    border-top: 2px solid white;
+    padding: 10px;
+    background-color: rgba(119, 136, 153, 0.378);
+}
+.btt{
+    border: none;
+    background-color: rgba(119, 136, 153, 0.378);
+    margin: 2px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.viewcart{
+    float: right;
+    padding: 10px;
+    color: white;
+    background-color: rgb(28, 51, 28);
+    font-family: Arial, Helvetica, sans-serif;
+}

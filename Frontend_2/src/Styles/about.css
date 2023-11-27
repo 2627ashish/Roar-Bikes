@@ -1,0 +1,41 @@
+/* .item {
+    height: 160px;
+    width: 90%;
+    border: solid 1px honeydew;
+    margin: 5px 60px 15px 0px;
+    box-shadow: 10px 10px 9px 3px honeydew;
+} */
+.font{
+    text-align: center;
+    padding: 12px;
+
+}
+.logo{
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #FC5E55, #FA4083);
+    color: white;
+  }
+  .container_about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .bikeimg{
+    border-radius: 50px !important;
+    object-fit: contain;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }

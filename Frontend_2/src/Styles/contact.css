@@ -1,0 +1,226 @@
+.background{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+}
+body{
+    
+    background-image: url("/public/Assets/image-lion-background.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Serif', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.margin{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.disp{
+    display: inline;
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log{
+    margin-right: 19px;
+    display: inline;
+    position: relative;
+    top: 5px;
+    left: 83%;
+    padding: 6px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main2{
+    min-height: 300px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card1,.card2,.card3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+.card1{
+    background-image: url(/public/Assets/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.card2{
+    background-image: url(/public/Assets/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.card3{
+    background-image: url(/public/Assets/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.herobox1{
+    flex: 2;
+    padding-right: 100px;
+}
+.herobox2{
+    flex: 1;
+}
+.herobox2 img{
+    border-radius: 10px;
+}
+h1{
+    font-size: 3.125rem;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.cards p{ 
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px;
+}
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+.button1{
+    color:#FA4083;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    margin-bottom: 20px;
+}
+.button1:hover{
+    background-color: aquamarine;
+    transition-duration: 1s;
+}
+a.button1{
+    display: inline-block;
+    margin-top: 20px;
+}
+nav a.button1{
+    margin-left: 30px;
+}
+.navbutton1{
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+.testimonials
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.tbox
+{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* .tbox :last-child{
+    font-size: 0.8rem;
+    padding: 40px;
+} */
+
+.tbox p:last-of-type{
+    font-size: 0.8rem;
+    padding: 40px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -25px;
+}
+.navbutton1:hover .dropdown{
+    display: block;
+    color: #FA4083;
+}
+
+.dropdown .navbutton1{
+    width: 94px;
+    font-size: 0.75rem;
+    background-color: white;
+}
+.dropdown .navbutton1 a {
+    color: #FA4083;
+}
+
+.inputwrapper{
+    margin-bottom: 30px;
+}
+input[type=text],input[type=email],textarea{
+    padding: 12px 20px;
+    width: 40%;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+.margin-right-a{
+    margin-right: 30px;
+}
+input[type=radio]{
+    margin-right: 10px;
+}
+form input[type=submit]{
+    margin-bottom: 30px;
+}
+.inputwrapper select:hover{
+    background-color: white;
+}
+.pdt{
+    padding-top: 20px;
+}

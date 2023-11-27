@@ -1,0 +1,10 @@
+.cart-list{
+    text-align: justify;
+    border: solid gray 1px;
+    border-radius: 3px;
+    padding: 4px;
+}
+.order-container{
+    width: 90%;
+    margin: 0px 10px 0px 10px;
+}

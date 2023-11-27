@@ -1,0 +1,38 @@
+#carthead {
+    text-align: center;
+    font-family: monospace;
+    font-size: 70px !important;
+}
+
+.item-box-head {
+    background-color: rgba(128, 128, 128, 0.41);
+    color: rgb(59, 61, 63);
+    font-weight: 600;
+    font-size: 25px;
+    padding: 12px;
+    margin: 5px;
+    text-align: center;
+}
+
+.tabledeg {
+    border: 2px solid !important;
+}
+
+.img-cart {
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+}
+.smallSpan {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.align-txt{
+    text-align: center;
+    padding: 5px;
+}
+.fa-circle-xmark{
+    margin-left: 10px;
+}
